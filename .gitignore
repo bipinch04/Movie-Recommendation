@@ -1,0 +1,44 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore pickle files
+*.pkl
+
+# Ignore environment files
+*.env
+.env.*
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports
+htmlcov/
+*.cover
+*.coverage
+*.cov
+
+# Ignore build artifacts
+build/
+dist/
+similarity.pkl
